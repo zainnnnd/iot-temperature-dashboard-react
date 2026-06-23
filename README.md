@@ -1,16 +1,54 @@
-# React + Vite
+# 🌡️ IoT Temperature Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A futuristic real-time IoT dashboard built using React, Tailwind CSS, Arduino UNO, and LM35 temperature sensor.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Real-time temperature monitoring
+- Live graph visualization
+- Web Serial API connection
+- Beautiful glassmorphism UI
+- Neon animations
+- Temperature status indicator
+- No database required
+- No backend required
 
-## React Compiler
+## 🛠 Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- Tailwind CSS
+- Recharts
+- React Icons
+- Arduino UNO
+- LM35 Sensor
+- Web Serial API
 
-## Expanding the ESLint configuration
+## 📦 Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm install recharts@2.15.4
+npm install react-icons
+npm run dev
+```
+
+## 🔌 Hardware
+
+- Arduino UNO
+- LM35 Temperature Sensor
+- Jumper Wires
+
+## 📊 Functionality
+
+LM35 → Arduino UNO → USB Serial → React Dashboard → Live Temperature Card → Real-time Graph
+
+## Future Enhancements
+
+- DHT11 Humidity Sensor
+- Fire Sensor
+- Gas Sensor
+- Rain Sensor
+- Export to Excel
+- Temperature Gauge
+- Dark/Light Theme
